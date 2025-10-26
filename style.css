@@ -363,16 +363,25 @@ width: 360px;
     color: #9a9a9b;
 }
 
+.mob-btn {
+    display:none
+}
 
+@media (min-width: 1200px) {
+.container {
+    max-width: 1200px ;
+}
+
+}
 @media (max-width: 1120px) {
     .container {
         padding:0 20px;
     }
+    .mob-btn {
+        display: inline;
+    }
 }
 
-.mob-btn {
-    none
-}
 
 @media (max-width: 992px) {
 .header-info-block {
@@ -390,7 +399,7 @@ width: 360px;
         margin-bottom: 0;
     }
     .course-card {
-        flex: flex;
+        display: flex;
         margin-bottom: 60px;
     }
     .card-big, .card-small {
@@ -459,3 +468,4 @@ width: 360px;
         font-size: 24px;
     }
 }
+
