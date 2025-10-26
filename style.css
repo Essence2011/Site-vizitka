@@ -1,5 +1,9 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -303,3 +307,6 @@ width: 360px;
 .img-card-2 {background-image: url('./img/card-2.png');}
 .img-card-3 {background-image: url('./img/card-3.png');}
 .img-card-4 {background-image: url('./img/card-4.png');}
+.community {
+    transition: 0,2s;
+}
